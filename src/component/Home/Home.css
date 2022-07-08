@@ -1,0 +1,58 @@
+.about {
+  flex-direction: column;
+  margin-top: 3em;
+}
+.about_name {
+  color: #2978b5;
+}
+
+.about__role {
+  margin-top: 1.2em;
+}
+
+.about__desc {
+  font-size: 1.2rem;
+  max-width: 600px;
+}
+
+.about__desc,
+.about__contact {
+  margin-top: 2.4em;
+}
+
+.about .link--icon {
+  margin-right: 0.8em;
+}
+.about .link--icon:hover{
+  color: #2978b5;
+}
+.about .btn--outline {
+  margin-right: 1em;
+}
+.btn {
+  display: block;
+  cursor: pointer;
+  padding: 0.6em 1em;
+  font-weight: 500;
+  font-size: 1rem;
+  text-transform: lowercase;
+}
+.btn:hover{
+  background-color: #2978b5;
+  color: #fff;
+  transition: ease-in-out .3s;
+}
+.btn--outline {
+  color: #2978b5;
+  border: 2px solid #2978b5;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+@media (max-width: 600px) {
+  .app .about {
+    align-items: flex-start;
+    margin-top: 2em;
+  }
+}
