@@ -13,6 +13,7 @@ export const Project = () => {
               <ProjectContainer  project={project} />
             ))}
           </div>
+          
         </section>
       );
 }
