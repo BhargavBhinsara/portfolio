@@ -14,10 +14,8 @@
   font-size: 1.2rem;
   max-width: 600px;
 }
-
-.about__desc,
 .about__contact {
-  margin-top: 2.4em;
+  margin-top: 5em;
 }
 
 .about .link--icon {

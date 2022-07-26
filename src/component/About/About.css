@@ -1,0 +1,61 @@
+.about_me {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5% 10% 0 10%;
+}
+.about_detail{
+  margin-right: 10px;
+}
+.about_detail a{
+  margin-top: 20px;
+  width: 90px;
+  float: right;
+}
+.name_title{
+  color: #000000;
+  font-size: 30px;
+}
+.role{
+  font-size: 20px;
+  color: #2978b5;
+  margin: 10px 0 10px 0;
+}
+.description{
+  font-size: 20px;
+}
+.skl_box,.about_detail {
+  width: 50%;
+  padding: 30px;
+  box-shadow: 2px 2px 10px #000000;
+}
+.skl,
+.skill {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.skls_box {
+  margin-top: 25px;
+  font-weight: bold;
+}
+progress {
+  border: none;
+  width: 200px;
+  height: 6px;
+  background: #eeeeee;
+}
+progress {
+  color: lightblue;
+}
+progress::-moz-progress-bar {
+  background: lightcolor;
+}
+progress::-webkit-progress-value {
+  background: #2978b5;
+  border-radius: 5px;
+}
+progress::-webkit-progress-bar {
+  background: #bbbbbb;
+  border-radius: 5px;
+}

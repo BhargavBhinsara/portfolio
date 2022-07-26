@@ -1,27 +1,23 @@
+
+.box{
+    display: flex;
+    margin: 0 30px 0 30px;
+}
 .containet{
     position: relative;
     width: 50%;
-    border:  1px solid #fff;
-    box-shadow: 5px 5px  #000000cb;
-    margin: auto;
-}
-.containet::after{
-    content: "";
-    position: absolute;    
-    top: 0;
-    width: 100px;
-    height: 100px;
-    border-top: 5px solid #000000cb;
-    border-left: 5px solid #000000cb;
 }
 h2{
-    margin: 50px 0px 30px 80px;
+    margin: 0px 80px 30px 80px;
+    padding: 30px 30px 0px 30px ;
     color: #2978b5;
 }
 .form form{
     display: flex;
     flex-direction: column;
-    margin: 10px 80px 20px 80px;
+    border:  1px solid rgb(0, 0, 0);
+    margin: 0px 80px 0px 80px;
+    padding: 30px 30px 0px 30px ;
 }
 input,textarea{
     border:  1px solid gray;
@@ -41,4 +37,21 @@ input[type="submit"]{
 }
 textarea{
     padding-bottom: 40px;
+}
+.c_detail{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.phone{
+    border: 1px solid #2978b5;
+    padding: 20px;
+    width: 300px;
+    height: 100px;
+    border-radius: 5px;
+}
+.phone p{
+    color: #2978b5;
+    margin-top: 10px;
 }

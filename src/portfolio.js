@@ -16,7 +16,6 @@ const header = {
       github: 'https://github.com/bhargavbhinsara',
     },
   }
-  
   const projects = [
     // projects can be added an removed
     // if there are no projects, Projects section won't show up
@@ -49,18 +48,20 @@ const header = {
   const skills = [
     // skills can be added or removed
     // if there are no skills, Skills section won't show up
-    'HTML',
-    'CSS',
-    'JavaScript',
-    'React',
-    'SASS',
-    'Material UI',
-    'Git',
+    {sk:'HTML & CSS',prs: '90'},
+    {sk: 'JavaScript',prs: '60'},
+    {sk: 'ReactJS',prs: '50'},
+    {sk: 'bootstrap',prs: '70'},
+    {sk: 'PHP',prs: '60'},
+    {sk: 'MYSQL',prs: '70'},
+
   ]
   
   const contact = {
     // email is optional - if left empty Contact section won't show up
     email: 'bhinsra49@mail.com',
+    phone: '9586167557',
+    adress: 'valsad',
   }
   
   export { header, about, projects, skills, contact }
